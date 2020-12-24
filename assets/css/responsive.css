@@ -1,0 +1,626 @@
+@media (min-width: 1300px) {
+    .custom-container {
+        width: 1240px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1470px) {
+    .custom-container {
+        width: 1440px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1400px) {
+.notion-congrass-section .solution-content {
+    padding-left: 50px;
+    width: 100%;
+}
+.working-unit::after {
+    height: 68%;
+    width: 86%;
+    top:-12px
+}
+.resister-popup .modal-dialog {
+    right: 10px;
+}
+.pouup-login-resister .modal-content::before {
+    right: 30px;
+}
+.login-popup .modal-dialog {
+    right: 67px;
+}
+.inp-mr0{
+    margin-right:0 !important
+}
+.free-inp-mr0{
+    margin-right:0 !important
+}
+}
+@media only screen and (max-width: 1200px) {
+    .notion-congrass-section .solution-content {
+        padding-left: 40px;
+        width: 100%;
+    }
+    .wiget-pd-letf {
+        padding-left: 10px;
+    }
+    .footer-widget h3 {
+        font-size: 18px;
+    }
+    .footer-wiget-padding-left {
+        padding-left: 20px;
+    }
+    .video-minitor img{
+        width:100%
+    }
+    .video-content-unit {
+        width: 80%;
+    }
+    .video-minitor {
+        padding-top: 50px;
+    }
+    .play-btn {
+        margin: 30px 0;
+    }
+    .video-content-unit {
+        padding: 50px 0 30px;
+    }
+    .section-padding {
+        padding: 60px 0 70px;
+    }
+    .working-single-unt img {
+        width: 80px;
+    }
+    .working-single-unt p {
+        font-size: 18px;
+    }
+    .working-unit::after {
+        height: 56%;
+        width: 85%;
+        left: 4%;
+        top: -12px;
+    }
+    .working-single-unt-middle {
+        left: 0;
+    }
+    .working-single-unt-left {
+        top: 25px;
+    }
+    .working-section{
+        padding: 60px 0 10px
+    }
+    .banner-content h4 {
+        margin-bottom: 20px;
+    }
+    .banner-title {
+        line-height: 1.3;
+    }    
+    .nav-search-button {
+        right:0;
+    
+    }
+    .header-search-resistation li:nth-child(2) {
+        right:0;
+    }
+    .nav-menu > li > a {
+        padding: 44px 11px !important;
+    }
+    
+        .contract-page .contract-inp{
+            margin-right: 20px
+        }
+}
+@media only screen and (max-width: 991px) {
+.working-unit::after {
+    height: 57%;
+    width: 87%;
+    top: -8px;
+}
+.working-single-unt-left {
+    left: -28px;
+    top: 28px;
+}
+.working-single-unt-end span {
+    right: 3px;
+    top: 4px;
+}
+.working-section{
+    padding: 60px 0 30px
+}
+.footer-widget h3 {
+    font-size: 18px;
+}
+.footer-widger-social a {
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.payment-option a{
+margin-bottom:10px 
+}
+.copy-right-unit {
+    min-height: auto;
+    padding: 30px 0px;
+}
+.contract-page .contract-inp{
+    margin-right: 20px
+}
+.contract-from{
+    margin-bottom:40px 
+
+}
+@media only screen and (max-width: 991px) {
+    .video-minitor {
+        width: 70%;
+        padding-top:50px;
+        padding-right: 20px;
+    }
+    .video-minitor img {
+        width: 100%;
+    }
+    .notion-congrass-section .solution-content {
+        padding-left: 20px;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .section-padding2 {
+        padding: 60px 0 40px;
+    }
+    .offer-inp {
+        min-width: 100%;
+    }
+    .wiget-pd-letf {
+        padding-left: 60px;
+    }
+    .working-single-unt img {
+        width: 80px;
+    }
+    .working-single-unt-middle {
+        top: -73px;
+        left: -12px;
+    }
+    .working-single-unt-left {
+        left: -35px;
+        top: 41px;
+    }
+    .working-single-unt p {
+        font-size: 16px;
+    }
+    .working-unit::after {
+        height: 40%;
+        width: 82%;
+        top: -13px;
+    }
+    .section-padding {
+        padding: 60px 0 50px;
+    }
+    .acordion-pannel-title a span {
+        position: absolute;
+        left: 30%;
+    }
+    .acordion-pannel-title a {
+        padding: 36px 20px 35px;
+    }
+    .acordion-pannel-title [aria-expanded="true"] span {
+        left: 20px;
+    }
+    .solution-section {
+        height: auto;
+    }
+    .video-content-unit {
+        width: 100%;
+    }
+    .solution-section .video-content-unit {
+        min-height: auto;
+    }
+    .teachers-images {
+        padding-bottom: 30px;
+    }
+    .commom-btn {
+        margin: 30px 0;
+    }
+    .skill-section{
+        padding-top: 10px
+    }
+    .faq-sevices .offer-title p {
+        width: auto;
+    }
+    .offer-title h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .offer-title{
+        width: 100%;
+        padding-right: 20px
+    }
+    .faq-qutes-btn {
+        font-size: 15px;
+        min-height: auto;
+        padding: 11px 7px;
+        min-width: 170px;
+    }
+    .offer-content-unit{
+        display: block !important;
+        min-height: auto;
+        padding: 40px 0;
+    }
+    .offer-from{
+        margin-bottom: 30px
+    }
+    .resister-popup .modal-dialog {
+        max-width: 292px;
+        left: 10px;
+        top: 12.5px;
+    }
+    .pouup-login-resister .modal-content::before {
+        right: 22px;
+        top: -15px;
+        border-color: transparent transparent #77b72f transparent;
+    }
+    .login-popup .modal-dialog {
+        left: 10px;
+        max-width: 292px;
+    }
+    .pouup-login-resister .login-popup .modal-content::before {
+        right: 33%;
+    }
+    .login-popup .modal-dialog {
+        left: 10px;
+        max-width: 292px;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    h3{
+        font-size: 28px
+    }
+    .pdbottom45 {
+        padding-bottom: 20px;
+    }
+    .section-padding2{
+        padding: 50px 0 40px
+    }
+    h2{
+        font-size: 28px
+    }
+    .navigation-portrait .nav-logo > img {
+        height: 36px;
+        margin: 6px auto 6px 15px;
+        padding: 0;
+        position: relative;
+        top: 37px;
+    }
+    .pouup-login-resister {
+        float: right;
+        padding: 0;
+        position: relative;
+        width: auto;
+        padding-top: 0;
+        text-align: left;
+        display: flex;
+        margin-right: 20px;
+    }
+    .pouup-login-resister {
+        float: right;
+        padding: 0;
+        position: relative;
+        width: auto;
+        text-align: right;
+        display: flex;
+    }
+    .content {
+        padding: 0;
+    }
+    .select-language-country {
+        float: left;
+        position: absolute;
+        top: 9px;
+        left: 20px;
+    }
+    .notion-header {
+        min-height: 120px;
+        width: 100%;
+    }
+    .login-inner {
+        margin-right: 5px;
+    }
+    .nav-search-button {
+        padding-top: 0;
+    }
+    .resister-inner {
+        font-size: 14px;
+        padding: 4px 8px;
+        min-height: auto;
+        min-width: auto;
+    }
+    .nav-toggle {
+        top: 65px;
+    }
+
+    .banner-title span {
+        font-size: 30px
+    }
+    .banner-title {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .banner-content h4{
+        margin-bottom: 20px
+    }
+    .banner-item {
+        height: 550px;
+    }
+    .commom-btn {
+        margin: 10px 0;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .activity-content{
+        margin-bottom:30px 
+    }
+    .service-icon {
+        margin-bottom: 30px;
+    }
+    .solution-content h2 {
+        font-size: 22px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+    .notion-congrass-section .solution-content {
+        padding-left: 20px;
+        width: 100%;
+    }
+    .notion-congrass-details{
+        display: block !important
+    }
+    .solution-content{
+        margin-bottom:20px 
+    }
+    .video-minitor {
+        padding-right: 0;
+        padding: 20px
+    }
+    .video-content-unit {
+        padding: 50px 0 10px;
+    }
+    .working-unit::after{
+    display: none
+    }
+    .copy-right-unit {
+        min-height: auto;
+        display: block !important;
+        padding: 20px 0;
+    }
+    .copy-right-unit {
+        min-height: auto;
+        padding: 20px;
+    }
+    .payment-option a img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .working-single-unt-left {
+        left: 0;
+        top: 0;
+    }
+    .working-single-unt-middle {
+        top: -65px;
+        left: 0;
+    }
+    .activity-content {
+        padding: 30px 0 0px;
+    }
+    .solution-section {
+        height: auto;
+        padding-top: 50px;
+    }
+    .teachers-images {
+        height: auto;
+        padding: 0 15px;
+    }
+    
+.solution-section .video-content-unit {
+    min-height: auto;
+    padding: 30px 0 0 0;
+}
+.solution-section .solution-content {
+    padding: 0 15px;
+}
+.video-content-unit {
+    width: 100%;
+}
+.offer-content-unit {
+    min-height: auto;
+    display: block !important;
+    padding: 50px 0;
+    text-align: center
+}
+.offer-from {
+    margin-bottom: 50px;
+}
+.quete-btnn{
+    text-align: center
+}
+.faq-sevices .offer-title p {
+    width: auto;
+}
+.offer-title h2 {
+    margin-bottom: 15px;
+}
+.soluition-btnn{
+    padding: 20px 0
+}
+.acordion-pannel-title a {
+    padding: 10px 20px 15px;
+    position: relative;
+    left: 0;
+}
+.acordion-pannel-title p {
+    position: relative;
+    top: 0;
+}
+.acordion-pannel-title a span {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    margin-bottom: 5px;
+}
+.acordion-pannel-title [aria-expanded="true"] span {
+    left: 0;
+}
+.acordion-btnf:after {
+    font-weight: 500;
+    top: 15px;
+    position: absolute;
+    right: 10px;
+}
+.skill-section{
+    padding-top: 10px
+}
+.client-details-content .carousel-indicators {
+    width: 263px;
+    overflow: hidden;
+}
+.client-details-content .carousel-indicators .active {
+    position: absolute;
+    z-index: 1;
+    top:0;
+    bottom: 0;
+    margin: auto
+}
+.login-popup .btn-info {
+    padding: 2px 10px 4px;
+}
+.working-unit{
+    display: block !important;
+    text-align: center
+    }
+    .working-single-unt p{
+        width: auto
+    }
+    .working-single-unt-middle {
+        top: 0;
+        position: relative;
+        left: 0;
+    }
+    .working-single-unt-end span {
+        right: 0;
+        top: 0;
+    }
+    .working-single-unt-left p {
+        padding-right: 0;
+    }
+    .working-single-unt-left span {
+        padding-left: 0;
+    }
+    .working-single-unt span {
+        display: none
+    }
+    .working-single-unt {
+        margin-bottom: 30px;
+    }
+    .working-single-unt-end p {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 91px;
+    }
+    .working-single-unt-end span {
+        position: absolute;
+        top: -18px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .client-review-title::after{
+        display: none
+    }
+    .parsonal-comments {
+        margin-left: 10px;
+    
+    }
+    .comment-parsons-img img {
+        height: 40px;
+        width: 40px;
+    }
+    .single-page-comment-from ul li ul li {
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .contract-inp {
+        width: 100%;
+    }
+    .single-widgets{
+        padding: 40px 0
+    }
+    .header-search-resistation li:first-of-type {
+        position: unset;
+        right: 0;
+    }
+    .header-search-resistation li:nth-child(2) {
+        position: unset;
+        right: unset;
+        top: 0;
+        padding-top: 10px
+    }
+    .navigation-portrait .nav-search-button {
+        position: relative;
+        top: -11px;
+        left: -26px;
+    }
+    .contract-page .contract-inp {
+        width: 100%;
+    }
+    .contract-side-bar {
+        padding: 30px 15px 20px 15px;
+    
+    }
+}
+@media only screen and (max-width: 567px) {
+    .video-minitor img{
+        width: 100%
+    }
+    .offer-from {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .offer-inp {
+        min-width: 100%;
+    }
+    .wiget-pd-letf {
+        padding-left: 0;
+    }
+    .footer-wiget-services {
+        padding-top: 10px;
+    }
+    .pricing-content-unt {
+        padding: 0 25px 20px;
+        margin-bottom: 40px;
+        min-height: 590px;
+    }
+    .blog-banner-height {
+        min-height: 200px;
+    }
+    .video-minitor {
+        width: 100%;
+    }
+    .wiget-pd-letf {
+        padding-left: 0;
+    }
+    .footer-wiget-padding-left {
+        padding-left: 0;
+    }
+    .comment-parsons-img img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+

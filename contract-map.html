@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>notion</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css.map" rel="stylesheet">
+    <link href="assets/css/navigation.css" rel="stylesheet">
+    <link href="assets/css/select2.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- [if lt IE 9] -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- [endif] -->
+</head>
+
+<body>
+    <!-- site wraper -->
+    <div class="wraper">
+
+        <!-- start notion-header unit -->
+        <header class="notion-header">
+                <div class="custom-container">
+                    <div class="content">
+                        <nav id="navigation1" class="navigation">
+                            <div class="nav-header">
+                                <a class="nav-logo" href="#">
+                                    <img src="assets/img/notion-logo.png" alt="logo">
+                                </a>
+                                <div class="nav-toggle"></div>
+                            </div>
+                            <!-- logo -->
+    
+                            <div class="nav-menus-wrapper main-navbar">
+                                    <ul class="header-search-resistation align-to-right">
+                                            <li>
+                                                    <div class="nav-search">
+                                                        <div class="nav-search-button">
+                                                            <i class="nav-search-icon"></i>
+                                                        </div>
+                                                        <form>
+                                                            <div class="nav-search-inner">
+                                                                <input type="search" name="search" placeholder="Type and hit ENTER" />
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="select-language-country">
+                                                        <span class="languahe-select">Language :</span>
+                                                        <div class="single-social-net-select-list-item">
+                                                            <div class="single-social-net-select-item">
+                                                                <select class="input single-social-net-select" name="state[]">
+                                                                    <option value="bangladesh" data-img="assets/img/flag/001-poland.png"></option>
+                                                                    <option value="fa-twitter" data-img="assets/img/flag/002-argentina.png"></option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            <li>
+                                                <div class="pouup-login-resister">
+                                                    <div class="login-popup">
+                                                        <button type="button" class="btn btn-info btn-lg  login-inner" data-toggle="modal" data-target="#myModal">
+                                                            Login
+                                                        </button>
+                                                        <!-- Modal -->
+                                                        <div id="myModal" class="modal fade" role="dialog">
+                                                            <div class="modal-dialog">
+            
+                                                                <!-- Modal content-->
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="login-title">Great to have you back!</h5>
+                                                                        <!--  <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form>
+                                                                            <input class="login-inp" type="text" placeholder="User Name">
+                                                                            <input class="login-inp" type="password" placeholder="Password">
+                                                                            <lebel class="forget-password">
+                                                                                <a href="#">Forgot your Password?</a>
+                                                                            </lebel>
+                                                                            <button type="submit" class="login-btn">Login</button>
+                                                                            <label class="sign-up-here">
+                                                                                <span class="login-new-btn">Are You New Here ?</span>
+                                                                                <a href="#" class="sign-up-login"> Sign Up</a>
+                                                                            </label>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="resister-popup">
+                                                        <button type="button" class="btn btn-info btn-lg resister-inner" data-toggle="modal" data-target="#myModal2">
+                                                            Register
+                                                        </button>
+                                                        <!-- Modal -->
+                                                        <div id="myModal2" class="modal fade" role="dialog">
+                                                            <div class="modal-dialog">
+            
+                                                                <!-- Modal content-->
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="login-title">Great to have you back!</h5>
+                                                                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form>
+                                                                            <input class="login-inp" type="text" placeholder="User Name">
+                                                                            <input class="login-inp" type="email" placeholder="Enter Your Email Address *">
+                                                                            <input class="login-inp" type="text" placeholder="Enter Your Company Name *">
+                                                                            <input class="login-inp" type="password" placeholder="Set Your Password *">
+                                                                            <input class="login-inp" type="password" placeholder="Confirm Your Password *">
+                                                                            <button type="submit" class="login-btn">Login</button>
+                                                                            <label class="sign-up-here">
+                                                                                <span class="login-new-btn">Are You New Here ?</span>
+                                                                                <a href="#" class="sign-up-login"> Sign Up</a>
+                                                                            </label>
+                                                                        </form>
+                                                                    </div>
+                                                                    <!--   <div class="modal-footer">
+                                                                       <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                                                       </button>
+                                                                   </div>-->
+                                                                </div>
+            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                <ul class="nav-menu nav-menu-centered navbar-menu align-to-center">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing-plan.html">Prices</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-page.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="contract-map.html">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="free-trail.html">Free Trial</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End nav-items -->
+                        </nav>
+                        <!-- End nav -->
+                    </div>
+                    <!-- End content -->
+                </div>
+                <!-- End custom-container -->
+            </header>
+        <!-- End notion-header unit -->
+
+        <!-- banner section -->
+        <section class="blog-banner" style="background: url('assets/img/blog-single-banner.png') no-repeat center center/cover">
+            <div class="container">
+                <div class="row  align-items-center blog-banner-height">
+                    <div class="col-lg-12">
+                        <div class="blog-single-banner text-center">
+                            <div class="blog-banner-title">
+                                <h1>Contact. Us</h1>
+                            </div>
+                            <div class="blog-page-link">
+                                <a href="#">Home
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                                <a href="#">Contact. Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End colum -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End container -->
+        </section>
+        <!-- End banner section -->
+
+        <!-- contract-form-section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="conmmon-title pdbottom45 text-center">
+                            <h2>We are Really happy to see your Hi,</h2>
+                        </div>
+                    </div>
+                    <!-- End colum -->
+                </div>
+                <!-- End row -->
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contract-from contract-page">
+                            <form>
+
+                                <div class="contract-input-from">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <input type="text" class="contract-inp webside-inp" placeholder="Your Mail">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp" placeholder="First Name*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp inp-mr0" placeholder="Last Name*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp" placeholder="Phone Number*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp inp-mr0" placeholder="company Name*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp cmp-address-inp" placeholder="Your Address*">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="contract-inp inp-mr0 cmp-address-inp" placeholder="Company Name*">
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <textarea class="contract-text-box contract-inp inp-mr0" placeholder="Message*"></textarea>
+                                            <button class="submit-btn" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- End contract-from -->
+                    </div>
+                    <!-- End col-lg-8 -->
+                    <div class="col-lg-4">
+                        <div class="contract-side-bar">
+                            <div class="cntf-single-address">
+                                <h3>NOTION Clipping Path</h3>
+                                <p>
+                                    <img src="assets/img/call-img.png">+49 15208718686</p>
+                                <p>
+                                    <i class="fab fa-skype"></i>Notion698</p>
+                            </div>
+                            <div class="cntf-single-address">
+                                <h3>Corporate Headquarters</h3>
+                                <p>
+                                    <i class="fas fa-map-marker"></i>Hoecker Str. 8, 45143 Essen</p>
+                            </div>
+                            <div class="cntf-single-address">
+                                <h3>For Information please contact</h3>
+                                <p>
+                                    <i class="fas fa-envelope"></i>info@notiongss.de</p>
+                            </div>
+                            <div class="cntf-single-address">
+                                <h3>For Information please contact</h3>
+                                <p>
+                                    <i class="fas fa-link"></i>info@notiongss.de</p>
+                            </div>
+                            <div class="contrac-social">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End colum -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End container -->
+        </section>
+        <!-- End contract-form-section -->
+
+        <section>
+            <div id="map" style="width:100%; height: 670px"></div>
+        </section>
+
+
+        <!-- Offer-sec -->
+        <section class="faq-sevices gmap-services">
+            <div class="container">
+                <div class="offer-content-unit d-flex align-items-center justify-content-between">
+                    <div class="offer-from">
+                        <div class="offer-title">
+                            <p>
+                                Various versions have evolved over the years, sometimes by accident, combined with a handful of model to generate which looks
+                                reasonable.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="quete-btnn">
+                        <a href="#" class="faq-qutes-btn">Request For Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Offer-sec -->
+
+        <!--  footer-sec -->
+        <footer>
+            <div class="footer-widget content-padding60 ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="notion-conculation-services ">
+                                <div class="footer-notion-logo mrbottom30 ">
+                                    <img src="assets/img/notion-footer-logo.png " alt="# ">
+                                </div>
+                                <p>NOTION- Graphic and software solution is an outsourcing company for Graphics (Photo Editing),
+                                    Web design and Apps development, with quality customer service as well as socialy responsible.</p>
+                            </div>
+                        </div>
+                        <!-- End colum -->
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-wiget-services wiget-pd-letf ">
+                                <h3>
+                                    <i class="fas fa-tags "></i>Our Service</h3>
+                                <div class="single-services ">
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Clipping Path</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Photo Masking</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Image Shadowing</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Photo Retouching</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Background Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End colum -->
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-wiget-services footer-wiget-padding-left">
+                                <h3>
+                                    <i class="fas fa-link "></i>Quick Link</h3>
+                                <div class="single-services ">
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>FAQ</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Privacy & Policy</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Payment Method</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Get Support</a>
+                                    <a href="# ">
+                                        <i class="fas fa-dot-circle "></i>Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End colum -->
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-wiget-services  wiget-pd-letf">
+                                <h3>
+                                    <i class="fas fa-user "></i>Get In Touch</h3>
+                                <div class="single-services ">
+                                    <a href="# ">
+                                        <i class="fas fa-phone "></i> +49 15208718686</a>
+                                    <a href="# ">
+                                        <i class="fas fa-envelope "></i>info@notiongss.de</a>
+                                    <a href="# ">
+                                        <i class="fas fa-map-marker "></i> Hoecker Str. 8, 45143 Essen</a>
+                                </div>
+                                <div class="footer-widger-social ">
+                                    <a href="# ">
+                                        <i class="fab fa-facebook-f "></i>
+                                    </a>
+                                    <a href="# ">
+                                        <i class="fab fa-skype "></i>
+                                    </a>
+                                    <a href="# ">
+                                        <i class="fab fa-twitter "></i>
+                                    </a>
+                                    <a href="# ">
+                                        <i class="fab fa-google-plus-g "></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End colum -->
+                    </div>
+                    <!-- End row -->
+                </div>
+                <!-- End footer-widget -->
+            </div>
+            <div class="copy-right-content ">
+                <div class="container ">
+                    <div class="copy-right-unit d-flex justify-content-between align-items-center ">
+                        <div class="copy-right-parson-name ">
+                            <p>Made by SixLock © Copyright 2018. All rights reserved.</p>
+                        </div>
+                        <div class="payment-option ">
+                            <a href="# ">
+                                <img src="assets/img/Visa_Logo.png " alt=" ">
+                            </a>
+                            <a href="# ">
+                                <img src="assets/img/payment2l.png " alt=" ">
+                            </a>
+                            <a href="# ">
+                                <img src="assets/img/payment3.png " alt=" ">
+                            </a>
+                            <a href="# ">
+                                <img src="assets/img/payment4.png " alt=" ">
+                            </a>
+                            <a href="# ">
+                                <img src="assets/img/payment5.png " alt=" ">
+                            </a>
+                            <a href="# ">
+                                <img src="assets/img/payment6.png " alt=" ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End container -->
+            </div>
+            <!-- End copy-right-content -->
+        </footer>
+        <!-- End footer-sec -->
+    </div>
+    <!-- end site wraper -->
+    <!-- js link -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/select2.js"></script>
+    <script type="text/javascript" src="assets/js/gmap.js"></script>
+    <script type="text/javascript" src="assets/js/navigation.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Qc_PQ0fVTI9ah5ejEQokyVaXpkYZLLc&callback=initMap"
+        type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+</body>
+
+</html>
